@@ -1,0 +1,124 @@
+        /* FONTE */
+
+@font-face {
+    font-family: 'be vietnam regular';
+    src: url('font/BeVietnamPro-Regular.ttf') format('truetype');
+  }
+
+body {
+    font-family: 'be vietnam regular', be vietnam regular ;
+}
+
+/* SOBRE */
+
+#img-size-me {
+    height: 100px;
+    width: 100px;
+}
+#card-size-me{
+    border: none;
+    border-radius: none;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#white {
+    color: white !important;
+}
+
+        /* SUA CARTEIRA */
+
+#reform {
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 83px;
+}
+#reformdois {
+    margin-top: 160px;
+    margin-left: 20px;
+    text-align: center;
+    border-left: 1px solid rgb(0, 0, 0);
+}
+#suacarteira {
+    padding: 50px 0px;
+    background-image: url(https://midia.gruposinos.com.br/_midias/jpg/2021/12/29/cnh-20077402.jpg);
+    background-size: cover;
+}
+#destaquecarteira {
+    display: none;
+}
+#textosobre h2 {
+    margin-top: 39px;
+    text-shadow: none;
+}
+#br {
+    margin-bottom: 90px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgb(134, 134, 134);
+}
+
+        /* CURIOSIDADES */
+
+.carousel-inner .cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.carousel-inner .card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.carousel-inner .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+}
+.modify {
+    padding: 8em;
+}
+.mod-prev {
+    width: 3vh;
+    height: 3vh;
+    top: 50%;
+    left: 3%;
+    transform: translateY(-50%);
+}
+.mod-next {
+    width: 3vh;
+    height: 3vh;
+    top: 50%;
+    right: 3%;
+    transform: translateY(-50%);
+}
+.size-b {
+    width: 80px;
+    height: 80px;
+}
+#b-r{
+    border-radius: 25px;
+}
+
+        /* CONTATOS */
+
+#contatos {
+    padding: 70px 0px;
+    background-image: url(img/carros-transito.jpeg);
+    background-size: cover;
+}
+#icon-size {
+    height: 170px;
+    width: 170px;
+}
+
+        /* END BAR */
+
+#footer {
+    background-color:#2B3035;
+
+}
+.img-icon {
+    width: 70px;
+    height: 70px;
+}
+
